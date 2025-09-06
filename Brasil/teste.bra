@@ -1,0 +1,30 @@
+# Exemplo interativo da linguagem Brasil
+escreva "=== BEM-VINDO À LINGUAGEM BRASIL ==="
+
+# Coletando informações do usuário
+pergunte "Qual e o seu nome?" para nome
+pergunte "Qual e a sua idade?" para idade
+
+# Usando variáveis
+escreva "Ola {nome}! Voce tem {idade} anos."
+
+# Condicionais simples
+se idade igual "18" entao
+
+# Loops
+escreva "Vou contar ate 3:"
+repita 3 vezes "{nome}, inscreva -se!"
+
+# Matemática básica
+var pontos = 100
+escreva "Voce começou com {pontos} pontos"
+calcule pontos + 50
+escreva "Agora você tem {pontos} pontos!"
+
+# Efeitos visuais
+espere 10
+limpe
+escreva "Obrigado por testar a Linguagem Brasil!"
+
+# Debug (mostrar todas as variáveis)
+liste_variaveis
